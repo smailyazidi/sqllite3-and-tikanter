@@ -8,7 +8,7 @@ fen.configure(bg="green")
 fen.title("SQLite Interface")
 db=sqlite3.connect("gestion.db")
 cur=db.cursor()
-def inserstion():
+def inserstion(): 
 
     t=Titre.get()
     p=prix.get()
